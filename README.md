@@ -6,7 +6,7 @@ To develop a convolutional deep neural network (CNN) for image classification an
 ##   PROBLEM STATEMENT AND DATASET
 Image classification is a fundamental task in computer vision where an input image is assigned to one of several predefined classes. The objective of this experiment is to build and train a Convolutional Neural Network (CNN) using a labeled image dataset and evaluate its performance using accuracy, confusion matrix, and classification report.
 ## Neural Network Model
-<img width="998" height="698" alt="image" src="https://github.com/user-attachments/assets/a757df16-cd3e-4a0a-99c3-8ac7e249f2af" />
+<img width="998" height="698" alt="image" src="./model.png" />
 
 ## DESIGN STEPS 
 1. Load and Preprocess Data
@@ -198,22 +198,22 @@ predict_image(model, image_index=80, dataset=test_dataset)
 
 ## Training Loss per Epoch
 
-<img width="493" height="207" alt="image" src="https://github.com/user-attachments/assets/1d68f24a-a056-4cff-a160-c001b0e2d586" />
+<img width="493" height="207" alt="image" src="./loss.png" />
 
 
 ## Confusion Matrix
 
-<img width="996" height="791" alt="image" src="https://github.com/user-attachments/assets/3ed0a66c-e2cb-410f-b4c3-89f58a7c3047" />
+<img width="996" height="791" alt="image" src="./cm.png" />
 
 
 ## Classification Report
 
-<img width="587" height="412" alt="image" src="https://github.com/user-attachments/assets/754ecccf-3c4f-4462-b016-c0e5823a8ba7" />
+<img width="587" height="412" alt="image" src="./report.png" />
 
 
 ### New Sample Data Prediction
 
-<img width="605" height="561" alt="image" src="https://github.com/user-attachments/assets/4ae01da0-86d7-4698-bebb-a4e96c13503d" />
+<img width="605" height="561" alt="image" src="./pred.png" />
 
 
 ## RESULT
